@@ -13,17 +13,17 @@
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
     </button>
-<!--    <Slide right :burgerIcon="false" :closeOnNavigation="true" :isOpen="isOpen" @closeMenu="isOpen = false" width="280">-->
-<!--      <nuxt-link v-for="page in pages" :to="{ path: page.path }" class="mx-2 my-auto font-light" :class="{ '!font-bold': $route.path === page.path }">{{ page.name }}</nuxt-link>-->
-<!--      <a href="https://alpinebuildingsolutions.co.uk" target="_blank" class="mx-2 text-center p-2 rounded-sm bg-white bg-opacity-25">-->
-<!--        <p>Looking for Alpine Building Solutions?</p>-->
-<!--      </a>-->
-<!--    </Slide>-->
+    <Slide right :burgerIcon="false" :closeOnNavigation="true" :isOpen="isOpen" @closeMenu="isOpen = false" width="280">
+      <nuxt-link v-for="page in pages" :to="{ path: page.path }" class="mx-2 my-auto font-light" :class="{ '!font-bold': $route.path === page.path }">{{ page.name }}</nuxt-link>
+      <a href="https://alpinebuildingsolutions.co.uk" target="_blank" class="mx-2 text-center p-2 rounded-sm bg-white bg-opacity-25">
+        <p>Looking for Alpine Building Solutions?</p>
+      </a>
+    </Slide>
   </div>
 </template>
 
 <script setup>
-// import { Slide } from "vue3-burger-menu";
+import { Slide } from "vue3-burger-menu";
 
 const isOpen = ref(false);
 const pages = [
