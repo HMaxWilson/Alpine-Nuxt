@@ -2,7 +2,7 @@
   <Splide :options="{ rewind: true }">
     <SplideSlide>
       <div class="relative">
-        <img class="max-h-[500px] w-full object-cover" src="/images/carousel/Stock1.jpg" alt="">
+        <img class="max-h-[375px] w-full object-cover" src="/images/carousel/Stock1.jpg">
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
           <div class="flex flex-col justify-center h-full">
             <h1 class="text-lg md:text-3xl xl:text-5xl font-bold text-center text-white">The Local Maintenance Specialists You Can Trust</h1>
@@ -14,7 +14,7 @@
 
     <SplideSlide>
       <div class="relative">
-        <img class="max-h-[500px] w-full object-cover" src="/images/carousel/Stock2.jpg" alt="">
+        <img class="max-h-[375px] w-full object-cover" src="/images/carousel/Stock2.jpg">
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
           <div class="flex flex-col justify-center h-full">
             <h1 class="text-lg md:text-3xl xl:text-5xl font-bold text-center text-white">Family Run Business</h1>
@@ -26,7 +26,7 @@
 
     <SplideSlide>
       <div class="relative">
-        <img class="max-h-[500px] w-full object-cover" src="/images/carousel/Stock3.jpg" alt="">
+        <img class="max-h-[375px] w-full object-cover" src="/images/carousel/Stock3.jpg">
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
           <div class="flex flex-col justify-center h-full">
             <h1 class="text-lg md:text-3xl xl:text-5xl font-bold text-center text-white">Knowing Your Unknown</h1>
